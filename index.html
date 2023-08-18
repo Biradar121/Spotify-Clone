@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="library icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>Install app</button>
+                    <i class="fa-regular fa-user nav-item  user"></i>
+                </div>
+            </div>
+
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mere pass tum ho</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/AA_img.png" class="card-img">
+                    <p class="card-title">Ala Vaikunthapurrmuloo</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Hindi_Songs.png" class="card-img">
+                    <p class="card-title">Hindi Songs &#10084;</p>
+                    <p class="card-info">By zayn_kmnn...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Vijay Thalapathy</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Arijit_Mix.png" class="card-img">
+                    <p class="card-title">Arijit Singh Mix</p>
+                    <p class="card-info">Mohit Chauhan, Sachet Tandon and...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Happy_Vibes.png" class="card-img">
+                    <p class="card-title">Happy Vibes</p>
+                    <p class="card-info">Let these happy tunes put a smile on your...</p>
+                </div>
+            </div>
+
+
+            <h2>Sound of India</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/Sound_of_Mum.png" alt="card1-img" class="card-img">
+                    <p class="card-title">The Sound of Mumb...</p>
+                    <p class="card-info">The songs that define, units and distinguish....</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Sound_of_Del.png" alt="card1-img" class="card-img">
+                    <p class="card-title">The Sound of Delhi IN</p>
+                    <p class="card-info">The songs that define, units and distinguish....</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Sound_of_kol.png" alt="card1-img" class="card-img">
+                    <p class="card-title">The Sound of kolkat...</p>
+                    <p class="card-info">The songs that define, units and distinguish....</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Sound _of_Beng.png" alt="card1-img" class="card-img">
+                    <p class="card-title">The Sound of Bengal...</p>
+                    <p class="card-info">The songs that define, units and distinguish....</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-control-left">
+                    <img src="./assets1/album_picture.jpeg" class="image-left">
+                    <p>Daylight</p>
+                    <p>David Kushnar</p>
+                    <img src="assets1/album_icon1.png" class="image-left-icon">
+                    <img src="assets1/album_icon2.png" class="image-left-icon">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="player-control-right">
+                    <img src="./assets1/controls_icon1.png" class="player-right-icon">
+                    <img src="./assets1/controld_icon2.png" class="player-right-icon">
+                    <img src="./assets1/controls_icon3.png" class="player-right-icon"
+                        style="height: 14px; padding-top: 12px;">
+                    <img src="./assets1/controls_icon4.png" class="player-right-icon"
+                        style="height: 14px; padding-top: 12px;">
+                    <img src="./assets1/controls_icon5.png" class="player-right-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
